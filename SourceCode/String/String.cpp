@@ -5,6 +5,10 @@ void greetings(char hello[]){
 	printf("%s",hello);
 }
 
+void toUpper(char s[]){
+	printf("String changed to upper case\n");
+}
+
 int main(){
 	char Greet = "Hello";
 	greetings(Greet);
