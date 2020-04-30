@@ -9,6 +9,10 @@ void toUpper(char s[]){
 	printf("String changed to upper case\n");
 }
 
+void toLower(char s[]){
+	printf("String changed to lower case\n");
+}
+
 int main(){
 	char Greet = "Hello";
 	greetings(Greet);
