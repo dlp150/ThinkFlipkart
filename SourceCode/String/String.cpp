@@ -13,6 +13,10 @@ void toLower(char s[]){
 	printf("String changed to lower case\n");
 }
 
+void toTitle(char s[]){
+	printf("Making string title\n");
+}
+
 int main(){
 	char Greet = "Hello";
 	greetings(Greet);
