@@ -3,7 +3,10 @@
 
 // Changes in master branch
 int sum(int a,int b){
-	return (a+b);
+	// Changes done in bugfix
+	int result = 0;
+	result = a+b;
+	return result;
 }
 
 // Changes in master branch
