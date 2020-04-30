@@ -2,7 +2,10 @@
 #include<math.h>
 
 int sum(int a,int b){
-	return a+b;
+	// Changes done in bugfix
+	int result = 0;
+	result = a+b;
+	return result;
 }
 
 int sub(int a,int b){
